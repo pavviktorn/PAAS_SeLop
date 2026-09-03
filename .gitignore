@@ -1,0 +1,53 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Training artifacts, logs, and model weights
+runs/
+outputs/
+checkpoints/
+base_models
+*.log
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.pb
+*.tflite
+*.h5
+*.hdf5
+*.gguf
+*.pkl
+*.pickle
+*.joblib
+
+# Dataset/index artifacts
+*.selop_idx.*
+*.npy
+*.npz
+*.parquet
+*.arrow
+
+# Local archives and packaged artifacts
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
